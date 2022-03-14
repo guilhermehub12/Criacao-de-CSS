@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Contato</title>
+</head>
+
+<body style="background-color: antiquewhite;">
+  <header class="cabecalho">
+    <a href="/index.html"><img width="100" height="100" class="cabecalho-img" src="/imgs/hotel-urbano-logo.jpeg"
+        alt="Logo da Hotel Urbano" /></a>
+
+    <input type="checkbox" id="bt_menu" />
+    <label for="bt_menu">&#9776;</label>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="/index.html" class="cabecalho-menu-item">Início</a></li>
+        <li>
+          <a href="/reserva.html" class="cabecalho-menu-item">Reserva</a>
+        </li>
+        <li>
+          <a href="/acomodacoes.html" class="cabecalho-menu-item">Acomodações</a>
+        </li>
+        <li>
+          <a href="/contato.html" class="cabecalho-menu-item">Contato</a>
+        </li>
+        <li>
+          <a href="/servicos.html" class="cabecalho-menu-item">Serviços</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-texto">
+        <h1 class="conteudo-principal-texto-titulo">
+          ENTRE EM CONTATO CONOSCO
+        </h1>
+      </div>
+    </section>
+
+    <section class="conteudo-principal-texto">
+      <div class="conteudo-principal-texto-titulo">
+        <span class="form-reserva">
+          <h2 class="texto-h2">FORMULÁRIO DE CONTATO</h2>
+        </span>
+        <form class="formulario-reserva" action="#" method="post" id="form">
+          <ul class="form-listas">
+            <li>
+              <label class="form-titulo" for="hotel">Nome</label>
+              <input type="text" placeholder="Digite o seu nome" name="nome" id="nome" required="required">
+            </li>
+            <li>
+              <label class="form-titulo" for="entrada">Email</label>
+              <input type="text" placeholder="Digite o seu email" name="email" id="email" required="required">
+            </li>
+            <li li-textarea>
+              <label class="form-titulo" for="saida">Mensagem</label>
+              <textarea type="text" placeholder="Digite sua mensagem" name="mensagem" id="mensagem" required="required"
+                style="height: 119px; width: 657px;"></textarea>
+            </li>
+
+            <li>
+              <div class="botao">
+                <input class="form-a" type="submit" name="enviar" id="enviar" value="Enviar">
+              </div>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-img" src="/imgs/hurb-icon.jpeg" alt="hurb Logo" />
+    <div class="rodape-texto">Hurb © Copyright</div>
+  </footer>
+</body>
+
+</html>
